@@ -1,0 +1,124 @@
+body{
+    background-image: url("img1.jpeg");
+    background-attachment:no-repeat;
+    background-size:100%;
+    padding:0;
+    margin:0;
+    border:0;
+    overflow-x:hidden;
+}
+#transNew{
+    width:100%;
+    height:102.5%;
+    top:-20px;
+    background-color:aliceblue;
+    position:absolute;
+    z-index:1;
+    animation-name: anime;
+    background-image: url(pixelsGif.gif);
+    background-size:100%;
+    background-attachment:no-repeat;
+}
+#transNew #title{
+    width:auto;
+    left:5%;
+    right:5%;
+    background-color:blueviolet;
+    height:auto;
+    font-size:calc(5em + 2.5vw);
+    text-decoration: inherit;
+    position:absolute;
+    bottom:30%;
+    color:rgb(163, 234, 255);
+    font-family: 'Courier New', Courier, monospace;
+    animation-name: anime;
+    animation-duration: 2s;
+    visibility: visible;
+    opacity:0.3;
+}
+@keyframes anime{
+    from {
+        bottom:30%;
+        opacity:0.4;
+    }
+    to{
+        bottom:38%;
+        opacity:1.0;
+    }
+}
+#transNew #title{
+    bottom:38%;
+    opacity:1.0;
+}
+
+#transNew{
+    transition: 3000ms;
+    visibility:hidden;
+}
+#transNew #title{
+    transition: 3000ms;
+    visibility:hidden;
+}
+
+
+#container1{
+    width:100%;
+    position:relative;
+    height:auto;
+    margin-top:0;
+    padding:0;
+    top:-30px;
+    z-index:0;
+    background-image:url(img2.jfif);
+    
+}
+.title{
+    width:80%;
+    position:relative;
+    font-size:50px;
+    color:aliceblue;
+    background-color:rgba(77, 28, 74, 0.418);
+    z-index: 0;
+}
+#container1 .links .undernedList{
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+    width:97%;
+    position:relative;
+    height:40px;
+    background-color: rgb(45, 2, 70);
+}
+#container1 .links .undernedList .list{
+    list-style: none;
+    text-decoration: none;
+    float:left;
+    width:13.9%;
+    align-items: center;
+}
+
+#container1 .links .undernedList .list a{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    height:auto;
+    font-size:200%;
+    font-family:Baskervil;
+    list-style:none;
+    text-decoration: none;
+    color:black;
+    background-color:antiquewhite;
+    border-radius: 4px;
+    border-width: 3px;
+    border-style: double;
+    border-color:rgb(163, 234, 255);
+}
+#container1 .links .undernedList .list a:hover{
+   color:antiquewhite;
+   background-color: black;
+   border-width: 2px;
+   border-style: outset;
+   border-color: rgba(77, 28, 74, 0.418);
+   text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+body{
+    background-image: url(img1.jpeg);
+    background-size:100%;
+    background-attachment: no-repeat;
+    overflow-x: hidden;
+}
+.resposta{
+    background-color:black;
+    border-width:3px;
+    border-radius: 4px;
+    border-color: blue;
+    border-style: double;
+    font-size: 30px;
+    width:80%;
+    height:auto;
+    position:relative;
+    left:10%;
+    right:10%;
+    color:aquamarine;
+}
+.voltar{
+    background-color:darkblue;
+    border-width:3px;
+    border-radius: 4px;
+    border-color: rgb(83, 152, 255);
+    border-style: double;
+    text-decoration: none;
+    color: aquamarine;
+    position:relative;
+    margin-left:80%;
+    margin-right:30%;
+    font-size: 30px;
+}
+.voltar:hover{
+    background-color:aquamarine;
+    color:darkblue;
+}

@@ -1,0 +1,63 @@
+body{
+    background-attachment:no-repeat;
+    background-size:100%;
+    background-image: url("img1.jpeg");
+    background-color:aliceblue;
+}
+#container1{
+    width:100%;
+    position:relative;
+    height:auto;
+}
+#form1 .title{
+    font-size:30px;
+    color:aliceblue;
+}
+#form1{
+    position:relative;
+    width:40%;
+    height:auto;
+    background-color:black;
+    background-attachment:no-repeat;
+    background-size:100%;
+    border-style:inset;
+    border-width:4px;
+    border-color:blue;
+    margin-left:auto;
+    margin-right:auto;
+}
+#form1 .labelType1{
+    margin-top:2em;
+    font-size:20px;
+    color: white;
+    font-family:arial;
+}
+#form1 .inputs1{
+    color:aliceblue;
+    background-color:black;
+    border-style:groove;
+    border-width:3px;
+    border-color:aliceblue;
+    width: 80%;
+    height: 30px;
+}
+#form1 #table1{
+    border-style:inset;
+    border-width:4px;
+    border-color:aliceblue; 
+    height:auto;
+    width:auto;
+}
+#form1 #btnSubmit{
+    position:relative;
+    left:30%;
+    right:30%;
+    width:40%;
+    height:2em;
+    margin-top:5em;
+    border-style:inset;
+    border-width:2px;
+    border-color:aliceblue; 
+    top: auto;
+    bottom:auto;
+}
